@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;  /* pour que le body occupe toute la hauteur de la fenêtre */
+  margin: 0;     /* supprime les marges par défaut du navigateur */
+}
+
+body {
+  min-height: 100vh;           /* vh = "viewport height" → prend 100% de la hauteur de l’écran */
+  display: flex;               /* on active le mode flexbox sur le body */
+  justify-content: center;     /* centre horizontalement */
+  align-items: center;         /* centre verticalement */
+  font-family: bitcount grid single ;
+  color: white;
+}
+
+
+
+/* div container*/
+.container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 400px;
+    border: 8px solid black;
+    border-radius: 15px;
+    background-color: #ff758f;
+
+}
+
+/* prenom */
+#prenom{
+    border-top-left-radius: 8px; /* pour que la bordure se fonde à celle du container*/
+    border-top-right-radius: 8px; /* pour que la bordure se fonde à celle du container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid white;
+    background-color: #ff4d6d;
+    font-size: 50px;
+    font-weight:200;
+}
+
+#countdown{
+    text-align: center;
+     font-size: 100px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#save-btn, #increase-btn{
+    
+    background-color: #ff4d6d;
+    border: none;
+    box-shadow: 3px 5px 5px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-family: bitcount grid single ;
+    color: white;
+}
+
+#previous{
+    border-bottom-left-radius: 8px; /* pour que la bordure se fonde à celle du container*/
+    border-bottom-right-radius: 8px; /* pour que la bordure se fonde à celle du container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid white;
+    background-color: #ff4d6d;
+    width: 100%;
+    height: 70px;
+    font-size: 20px;
+
+
+}
