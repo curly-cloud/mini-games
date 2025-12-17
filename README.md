@@ -8,5 +8,8 @@
 
 
 
- > [COUNTER](./COUNTER/)
- > [leads-tracker-extension](./leads-tracker-extension/)
+ > [COUNTER][def2]
+ > [leads-tracker-extension][def]
+
+[def]: ./leads-tracker-extension/
+[def2]: ./COUNTER/
