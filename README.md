@@ -8,8 +8,9 @@
 
 
 
- > [COUNTER][def2]
- > [leads-tracker-extension][def]
+ > ⏲ [COUNTER][def2]
+
+ > 🤑 [leads-tracker-extension][def]
 
 [def]: ./leads-tracker-extension/
 [def2]: ./COUNTER/
